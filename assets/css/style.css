@@ -1,0 +1,86 @@
+/*font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.active {
+  font-weight: 700;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+.container {
+  width: calc(100%-120px);
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .logo img {
+  width: 35px;
+}
+header .logo a {
+  color: #545be8;
+}
+.navbar-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.navbar-content ul li a {
+  color: #101928;
+  display: flex;
+  gap: 20px;
+}
+header .nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+header .nav-buttons a {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding: 6px 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-family: "Inter", sans-serif;
+}
+header .nav-buttons .login {
+  background-color: white;
+  color: #545be8;
+  border: 1px solid #545be8;
+}
+header .nav-buttons .register {
+  background-color: #545be8;
+  color: white;
+}
